@@ -1,0 +1,44 @@
+---------------------------------------
+Problem defination for given case study:
+----------------------------------------
+1.There is Consto a multinational Company.
+2.They have their 12 offices all over the world.
+3.They have their Corporate custmer who avail the faciltiy provided by Cosnto.
+4.They want to maintain the accounting related information of those corporate cusotmers.
+5.Information need t be maintained is:
+    1.Name of customer(regular or new cusotmer.)
+	2.Quatation given to that customer for the productthey demanded.
+	3.Date of purchase and supply.
+	4.Payment mode and amount(Cash,cheque etc)
+	  Customers banking related information is required.
+	5.Date od delieery etc.
+6.Once they have this info it will easy to maintian the records of sales,profit,loss etc.
+7.They will be able to generate daily reports.
+8.So they wil be able to achievement exact accuracy in their collections
+9.Once it can be completed they want to us to make it available for everybody on public cloud.
+10.This can achieved with the help of Google Cloud or AWS.(The more focus of it upload it on Google cloud.)
+
+
+--------------------------
+Functional Requirements:
+--------------------------
+This app must be available on Google cloud so that anybody can directly start accessing from anywhere.
+1.It should accept all the details for new user,not for registered customers
+2.Once the cusotmers Login if he has any requirements he can fill it up the form.
+3.As per the that quotation and dates of supply will be given to cusotmer.
+4.Once he is ok with given quotaion he has to pay 75% amount in advance and remaingin once the products is delivered
+5.For payments he has options of cheques or online transfer.
+6.For that he has to provide all accounting information so next time when ask sfor any requirements then it should redirected to same account.
+7.After successful payment.
+8.Before one day of supply they willl inform about dispatch of products.
+9.Product will be send by availing different transfer services.
+10.Once they recvie Cosnto will informed by Transfer services.
+
+---------------------------
+NonFunctional requirements
+---------------------------
+1.Reusablity
+2.Security over the network for banking purpose
+3.Concurrency
+4.Realibilty
+5.Tracking and safety of product.
